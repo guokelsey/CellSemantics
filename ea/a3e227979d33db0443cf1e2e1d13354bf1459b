@@ -1,0 +1,68 @@
+.gitignore
+  h_3b9f2fb3ba5cd0 1-26
+code/models/__init__.py
+  h_3b9f2fb3ba5cd0 1
+code/models/prompt_config.py
+  h_3b9f2fb3ba5cd0 1-774
+code/models/special_tokens.py
+  h_3b9f2fb3ba5cd0 1-3
+code/models_v3/__init__.py
+  h_3b9f2fb3ba5cd0 1
+code/models_v3/saga_xattn_runtime.py
+  h_3b9f2fb3ba5cd0 1-341
+code/models_v3/sagav3_llm.py
+  h_3b9f2fb3ba5cd0 1-284
+code/models_v3/uce_projector.py
+  h_3b9f2fb3ba5cd0 1-171
+code/scripts/__init__.py
+  h_3b9f2fb3ba5cd0 1
+code/scripts/step1_train_projector.py
+  h_3b9f2fb3ba5cd0 1-34
+code/scripts_v3/__init__.py
+  h_3b9f2fb3ba5cd0 1
+code/scripts_v3/build_task1_gene_text_evidence.py
+  h_3b9f2fb3ba5cd0 1-284
+code/scripts_v3/build_task1_grounded_language_records.py
+  h_3b9f2fb3ba5cd0 1-186
+code/scripts_v3/collect_task1_null_controls_multiseed.py
+  h_3b9f2fb3ba5cd0 1-427
+code/scripts_v3/collect_task1_raw_gene_interface_multiseed.py
+  h_3b9f2fb3ba5cd0 1-324
+code/scripts_v3/evaluate_task1_gene_text_questions.py
+  h_3b9f2fb3ba5cd0 1-221
+code/scripts_v3/evaluate_task1_open_questions.py
+  h_3b9f2fb3ba5cd0 1-500
+code/scripts_v3/extract_projector_features_configurable.py
+  h_3b9f2fb3ba5cd0 1-189
+code/scripts_v3/train_fixed_split_label_head.py
+  h_3b9f2fb3ba5cd0 1-288
+code/scripts_v3/train_v3.py
+  h_3b9f2fb3ba5cd0 1-2035
+docs/code_provenance.md
+  h_3b9f2fb3ba5cd0 1-28
+docs/protocol_scope.md
+  h_3b9f2fb3ba5cd0 1-55
+docs/release_validation.json
+  h_3b9f2fb3ba5cd0 1-66
+docs/usage.md
+  h_3b9f2fb3ba5cd0 1-106
+docs/validation.md
+  h_3b9f2fb3ba5cd0 1-19
+release_manifest.json
+  h_3b9f2fb3ba5cd0 1-172
+requirements.txt
+  h_3b9f2fb3ba5cd0 1-9
+tests/test_release.py
+  h_3b9f2fb3ba5cd0 1-94
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.4",
+  "base_commit_sha": "eaa3e227979d33db0443cf1e2e1d13354bf1459b",
+  "prompts": {},
+  "humans": {
+    "h_3b9f2fb3ba5cd0": {
+      "author": "guokelsey <inairkelsey@gmail.com>"
+    }
+  }
+}
