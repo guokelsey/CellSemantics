@@ -1,0 +1,66 @@
+{
+  "scope": "Synthetic CPU packaging validation; not biological/GPU reproduction",
+  "python": "3.9.6",
+  "packages": {
+    "torch": "2.8.0",
+    "transformers": null,
+    "accelerate": null,
+    "numpy": "2.0.2",
+    "pandas": "2.3.3",
+    "scikit-learn": "1.6.1"
+  },
+  "dependency_installation": "Transformers/Accelerate download timed out; unchanged configured network; no TLS/proxy bypass",
+  "synthetic_unit_tests_passed": 9,
+  "cli_help_checks": [
+    {
+      "path": "code/scripts_v3/build_task1_gene_text_evidence.py",
+      "exit_code": 0,
+      "status": "PASS"
+    },
+    {
+      "path": "code/scripts_v3/build_task1_grounded_language_records.py",
+      "exit_code": 0,
+      "status": "PASS"
+    },
+    {
+      "path": "code/scripts_v3/collect_task1_null_controls_multiseed.py",
+      "exit_code": 0,
+      "status": "PASS"
+    },
+    {
+      "path": "code/scripts_v3/collect_task1_raw_gene_interface_multiseed.py",
+      "exit_code": 0,
+      "status": "PASS"
+    },
+    {
+      "path": "code/scripts_v3/evaluate_task1_gene_text_questions.py",
+      "exit_code": 1,
+      "status": "BLOCKED_MISSING_TRANSFORMERS"
+    },
+    {
+      "path": "code/scripts_v3/evaluate_task1_open_questions.py",
+      "exit_code": 1,
+      "status": "BLOCKED_MISSING_TRANSFORMERS"
+    },
+    {
+      "path": "code/scripts_v3/extract_projector_features_configurable.py",
+      "exit_code": 0,
+      "status": "PASS"
+    },
+    {
+      "path": "code/scripts_v3/train_fixed_split_label_head.py",
+      "exit_code": 0,
+      "status": "PASS"
+    },
+    {
+      "path": "code/scripts_v3/train_v3.py",
+      "exit_code": 1,
+      "status": "BLOCKED_MISSING_TRANSFORMERS"
+    }
+  ],
+  "archived_algorithm_ast_checks_passed": 12,
+  "private_path_and_common_secret_scan": "PASS",
+  "gpu_inference": false,
+  "training": false,
+  "model_or_biological_assets_loaded": false
+}
